@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    .front-page-ornament img {
+        height: 14vh !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .front-page-ornament img {
+        height: 17vh !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .front-page-ornament img {
+        height: 19vh !important;
+    }
+}

@@ -1,0 +1,48 @@
+.section-products-logo {
+    color: #f2a3bd;
+    position: absolute;
+    top: 50vh;
+    left: 12vw;
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 10vw;
+}
+.section-products-line {
+    font-size: 4vw;
+    color: whitesmoke;
+    position: absolute;
+    top: 37vh;
+    left: 34vw;
+}
+.section-products-products {
+    text-align: left;
+    position: absolute;
+    top: 47vh;
+    left: 34vw;
+}
+.section-products-products li {
+    color: #fad48b;
+    font-size: 2vw;
+    padding-bottom: 6px;
+    padding-right: 6px;
+}
+.section-products-products button {
+    display: inline-block;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #c4adc9;
+    font-size: 2vw;
+    font-family: a song for jennifer, sans-serif;
+}
+.section-list-url-cnt {
+    position: absolute;
+    top: 88vh;
+    left: 36vw;
+}
+.section-list-url-cnt p {
+    color: whitesmoke;
+    font-size: 2vw;
+    display: inline-block;
+}

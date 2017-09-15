@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "rwd.css";
+@import "front-page.css";
+@import "list-page.css";
+@import "main-header.css";
+@import "main-section.css";
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Images/chalkboard-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    clear: both;
+}

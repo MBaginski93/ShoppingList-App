@@ -1,0 +1,91 @@
+.main-frontpage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Images/chalkboard-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.front-page-logo-text {
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    font-size: 5vw;
+    color: #ed7777;
+    transform: scaleY(2.3);
+}
+.log-in-container {
+    margin-top: 10vw;
+}
+.input-list-create {
+    color: #fad48b;
+}
+[class *= input-list] {
+    margin-top: 3vw;
+    display: block;
+    font-family: a song for jennifer, sans-serif;
+    width: 12vw;
+    font-size: 3vw;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.input-list-create::placeholder {
+    color: #f5f9ad;
+    opacity: 0.7;
+}
+[class *= btn-list] {
+    cursor: pointer;
+    color: #f2a3bd;
+    font-family: a song for jennifer, sans-serif;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 5vw;
+    display: inline-block;
+    text-decoration: none;
+}
+[class *= btn-list-create] {
+    position: absolute;
+    top: 55vh;
+    left: 57vw;
+}
+.btn-list-open:active, .btn-list-create:active {
+    font-weight: bold;
+}
+.btn-list-open-disabled, .btn-list-create-disabled {
+    pointer-events: none;
+}
+.front-page-socials {
+    position: absolute;
+    top: 90vh;
+    left: 80vw;
+}
+.front-page-socials a {
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 2vw;
+    color: #f5f9ad;
+    text-decoration: none;
+}
+.front-page-socials a:hover {
+    font-weight: bold;
+}
+.front-page-author {
+    position: absolute;
+    left: -74vw;
+    top: -10vh;
+    text-align: center;
+}
+.front-page-author h2 {
+    color: #fad48b;
+    font-size: 2vw;
+    padding-top: 10vh;
+}

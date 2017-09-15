@@ -1,0 +1,23 @@
+.main-nav {
+    text-align: center;
+}
+.main-nav-logo-text {
+    color: #f5f9ad;
+    font-size: 6vw;
+    transform: scaleY(2.3);
+    display: inline-block;
+    padding-top: 2vw;
+}
+.main-nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #bcdf8a;
+    font-size: 3vw;
+    transform: scaleY(1.5);
+    margin: 8vw 3vw 0 3vw
+}
+.main-nav-link:hover {
+    font-weight: bold;
+}
